@@ -6,6 +6,8 @@ This repository describes the code and dataset used in [Learning Compact Geometr
 
 ### Models
 
+The trained models can be downloaded [here](https://drive.google.com/file/d/0B-ePgl6HF260b2UtVXpjN005cnM/view?usp=sharing). 
+
 ### Dataset
 
 The dataset is available [here](https://marckhoury.github.io/CGF/).
