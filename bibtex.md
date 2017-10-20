@@ -10,7 +10,7 @@ Marc Khoury, Qian-Yi Zhou, and Vladlen Koltun. *Learning Compact Geometric Featu
 }
 ```
 
-Binh-Son Hua, Quang-Hieu Pham, Duc Thanh Nguyen, Minh-Khoi Tran, Lap-Fai Yu, and Sai-Kit. *SceneNN: A Scene Meshes Dataset with aNNotations* 3DV 2016. [pdf](http://people.sutd.edu.sg/~saikit/projects/sceneNN/pdf/dataset_3dv16.pdf)
+Binh-Son Hua, Quang-Hieu Pham, Duc Thanh Nguyen, Minh-Khoi Tran, Lap-Fai Yu, and Sai-Kit. *SceneNN: A Scene Meshes Dataset with aNNotations*. 3DV 2016. [pdf](http://people.sutd.edu.sg/~saikit/projects/sceneNN/pdf/dataset_3dv16.pdf)
 ```
 @inproceedings{scenenn-3dv16,
     author = {Binh-Son Hua and Quang-Hieu Pham and Duc Thanh Nguyen and Minh-Khoi Tran and Lap-Fai Yu and Sai-Kit Yeung},
