@@ -57,8 +57,7 @@ In addition, there are three compressed numpy files in the top level directory: 
 ### Acknowledgements
 
 If you use this dataset in your own research, please cite the following papers.
-
-Learning Compact Geometric Features   
+ 
 Marc Khoury, Qian-Yi Zhou, and Vladlen Koltun. *Learning Compact Geometric Features*. ICCV 2017. [Bibtex](https://marckhoury.github.io/CGF/bibtex)
 
 Binh-Son Hua, Quang-Hieu Pham, Duc Thanh Nguyen, Minh-Khoi Tran, Lap-Fai Yu, and Sai-Kit Yeung. *SceneNN: A Scene Meshes Dataset with aNNotations*. 3DV 2016. [Bibtex](https://marckhoury.github.io/CGF/bibtex)
