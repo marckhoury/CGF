@@ -50,7 +50,7 @@ aligned_points_i = (np.dot(icp[k], points_i.T).T)[:,:-1]
 
 ### Training, Validation, and Test Sets
 
-Three additional files `train-subset.txt`, `validataion-subset.txt`, and `test-subset.txt` are includded in the top level directory of the dataset. These files specify the models that comprise our training, validation, and test sets respectively. 
+Three additional files `train-subset.txt`, `val-subset.txt`, and `test-subset.txt` are includded in the top level directory of the dataset. These files specify the models that comprise our training, validation, and test sets respectively. 
 
 In addition, there are three compressed numpy files in the top level directory: `data_train.npz`, `data_val.npz`, and `data_test.npz`. These files contain all of the combined data for the training, validation, and test sets respectively. They have exactly the same fields as detailed above, with the exception that `threshold` and `diameter` are arrays and thus are named `thresholds` and `diameters`.
 
