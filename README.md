@@ -4,9 +4,11 @@ This repository describes the code and dataset used in [Learning Compact Geometr
 
 ### Code
 
+### Models
+
 ### Dataset
 
-The dataset is available [here][https://marckhoury.github.io/CGF/).
+The dataset is available [here](https://marckhoury.github.io/CGF/).
 
 ### Acknowledgements
 If you use these features in your own research, please cite the following papers.
