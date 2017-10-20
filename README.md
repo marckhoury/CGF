@@ -59,9 +59,16 @@ In addition, there are three compressed numpy files in the top level directory: 
 If you use this dataset in your own research, please cite the following papers.
 
 Learning Compact Geometric Features
+
 Marc Khoury, Qian-Yi Zhou, Vladlen Koltun
+
 International Conference on Computer Vision (ICCV), 2017
 
+
 SceneNN: A Scene Meshes Dataset with aNNotations
+
 Binh-Son Hua, Quang-Hieu Pham, Duc Thanh Nguyen, Minh-Khoi Tran, Lap-Fai Yu, and Sai-Kit Yeung
+
 International Conference on 3D Vision (3DV) 2016.
+
+[Bibtex is available here.](https://marckhoury.github.io/CGF/bibtex)
