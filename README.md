@@ -4,6 +4,8 @@ This repository describes the code and dataset used in [Learning Compact Geometr
 
 ### Code
 
+Coming soon to a repository near you!
+
 ### Models
 
 The trained models can be downloaded [here](https://drive.google.com/file/d/0B-ePgl6HF260b2UtVXpjN005cnM/view?usp=sharing). 
