@@ -2,7 +2,7 @@
 
 This page describes the dataset used in [Learning Compact Geometric Features](https://arxiv.org/abs/1709.05056) (ICCV 2017). The dataset is a set of point clouds reconstructed from raw RGB-D images provided by the [SceneNN dataset](http://people.sutd.edu.sg/~saikit/projects/sceneNN/). The point clouds were reconstructed using the pipeline detailed in [Robust Reconstruction of Indoor Scenes](http://redwood-data.org/indoor/). 
 
-![](https://raw.githubusercontent.com/marckhoury/CGF/master/images/scenenn.png?token=ABJcGhJQLm8lLN8ppUMsZAC2NKWladaPks5Z9CtLwA%3D%3D)
+![](./images/scenenn.png)
 
 ### Download
 
