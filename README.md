@@ -76,4 +76,4 @@ The dataset is available [here](https://marckhoury.github.io/CGF/).
 ### Acknowledgements
 If you use these features in your own research, please cite the following paper.
  
-Marc Khoury, Qian-Yi Zhou, and Vladlen Koltun. *Learning Compact Geometric Features*. ICCV 2017. [Bibtex](https://marckhoury.github.io/CGF/bibtex)
+Marc Khoury, Qian-Yi Zhou, and Vladlen Koltun. *Learning Compact Geometric Features*. ICCV 2017. [Bibtex](https://marckhoury.github.io/CGF/bibtex) 
