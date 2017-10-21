@@ -2,6 +2,8 @@
 
 This repository describes the code and dataset used in [Learning Compact Geometric Features](https://arxiv.org/abs/1709.05056) (ICCV 2017).
 
+![](https://raw.githubusercontent.com/marckhoury/CGF/master/images/features.png?token=ABJcGvaZD8tt22clg4IS0HMWn4HkHmXAks5Z9Cr8wA%3D%3D)
+
 ### Code
 
 Code for computing geometric features using our pretrained models is included in the `src` directory. The code has dependencies on the Point Cloud Library (PCL), the compression library LZF, and optionally OpenMP. We've included the LZF library in the `src` directory in the folder `liblzf-3.6`. PCL can be installed using brew -- `brew install pcl` -- or from [source](https://github.com/PointCloudLibrary/pcl).
