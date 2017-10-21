@@ -38,7 +38,16 @@ Options:
 ```
 The program has two possible settings for the scale: relative and absolute. The relative setting sets the search radius, the local reference frame radius, and the minimal radial subdivision in terms of percentages of the diameter of the model. In this case the diameter of the model must also be given. The absolute setting simply uses the provided values, assuming the units are in meters. The default values are the same as those used in the paper. Models trained on laser scan data were provided inputs defined using relative scale, while SceneNN models used absolute scale.
 
-The provided models are trained for the default values. Thus when using our pretrained models it is best to use the default settings for the spherical histograms. However the radial, elevation, and azimuth subdivions can be specified, which would require training a new model for the new parameterization.
+The provided models are trained for the default values. Thus when using our pretrained models it is best to use the default settings for the spherical histograms. However the radial, elevation, and azimuth subdivions can be specified, which would require training a new model for the new parameterization. Typical usage will look something like the following.
+
+```
+./main -d 10 -s 1.7 -l 0.2 input.pcd
+./main --relative -d 10 input.pcd
+```
+
+Attempt to keep the search radius around 17% of the diameter, as that is what the models are trained on. Slight deviation from this value may improve results in some cases.
+
+It is of the utmost importance that the input point cloud contain oriented normals that are consistently oriented across all point clouds to be matched. In our experiments we oriented the normals to the location of the camera, but any consistent orientation will do.
 
 The result of running `main` is a file containing the raw spherical histograms compressed using the LZF algorithm. The following command converts this representation to a compressed numpy file.
 
@@ -62,6 +71,14 @@ We can also train a new model using `embedding.py` by running a command similar 
 python embedding.py --evaluate=False --summaries_dir=./summaries/ --checkpoint_dir=./checkpoints/ --max_steps==1000000 input.npz
 ```
 To train a new model the `input.npz` need only contain the raw spherical histograms in a field called `data` and the triplets for the embedding loss in a field called `triplets`. See the provided SceneNN dataset for more details.
+
+Lastly for further speed improvements the code can be compiled with OpenMP. Simply uncomment the following lines in `main.cpp`.
+
+```cpp
+//#ifdef _OPENMP
+//#pragma omp parallel for num_threads(num_threads)
+//#endif
+```
 
 ### Models
 
