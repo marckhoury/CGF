@@ -67,6 +67,8 @@ To train a new model the `input.npz` need only contain the raw spherical histogr
 
 The trained models can be downloaded [here](https://drive.google.com/file/d/0B-ePgl6HF260b2UtVXpjN005cnM/view?usp=sharing). 
 
+This zip archive contains a 18 folders each containing a pretrained model trained on either laser scan data or SceneNN. Each folder is named either `laserscan_XD` or `scenenn_XD` where `X` denotes the dimensionality of the output feature. 
+
 ### Dataset
 
 The dataset is available [here](https://marckhoury.github.io/CGF/).
