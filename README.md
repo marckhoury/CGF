@@ -84,7 +84,7 @@ Lastly for further speed improvements the code can be compiled with OpenMP. Simp
 
 ### Models
 
-The trained models can be downloaded [here](https://drive.google.com/file/d/0B-ePgl6HF260b2UtVXpjN005cnM/view?usp=sharing). 
+The trained models can be downloaded [here](https://drive.google.com/open?id=1rJm3W8WkjozdnGdkagpHPuSXDBMcCiib). 
 
 This zip archive contains a 18 folders each containing a pretrained model trained on either laser scan data or SceneNN. Each folder is named either `laserscan_XD` or `scenenn_XD` where `X` denotes the dimensionality of the output feature. 
 
