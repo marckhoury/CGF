@@ -6,7 +6,7 @@ This page describes the dataset used in [Learning Compact Geometric Features](ht
 
 ### Download
 
-The dataset can be downloaded [here](https://drive.google.com/file/d/0B-ePgl6HF260SmUzT29fOTdYZFk/view?usp=sharing) (54GB). 
+The dataset can be downloaded [here](https://drive.google.com/drive/folders/1YOYg5TAeC7Gtrmj488Q6baFKGw3xkwML) (54GB). 
 
 ### Dataset
 
